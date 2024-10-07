@@ -1,0 +1,96 @@
+html {
+  font-family: "Inria Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  border-bottom: 4px dashed #C3D350;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.3rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: decimal-leading-zero;
+  padding-left: 2rem;
+}
+
+li {
+  position: relative;
+}
+
+article {
+  margin: 3rem 0;
+}
+
+section {
+  border: 2px solid #C3D350;
+  margin: 3rem 0 1rem;
+  padding: 2rem;
+  position: relative;
+  background-color: white;
+}
+section:before {
+  background: #444;
+  color: #fefefe;
+  content: attr(id);
+  font-size: 0.8rem;
+  left: -2px;
+  line-height: 0.8rem;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+figure {
+  border: 2px solid black;
+  margin: 1rem;
+  margin-bottom: 100px;
+  padding: 1rem 2rem;
+}
+
+figure img {
+  width: 100%;
+}
+
+#ex-06 {
+  height: 50px;
+}
+
+#bottom {
+  margin-top: 50px;
+}
+
+.lemon, .lemon2, .lemon3 {
+  width: 100px;
+}
+
+.border {
+ border: 1px solid black;
+}
+
+.absolute {
+   background-color: purple;
+   color: white;
+   padding: 10px 20px;
+   max-width: 140px;
+   margin: 20px;
+}
+
+.fixed {
+   background-color: orange;
+   color: black;
+   padding: 10px 20px;
+   max-width: 140px;
+   margin: 20px;
+}
+

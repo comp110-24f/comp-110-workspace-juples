@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>CSS layout exercises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=PT+Sans&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- basic styles -->
+    <link href="lab-styles.css" rel="stylesheet" type="text/css" />
+
+ <!-- your styles -->
+ <link href="your-styles.css" rel="stylesheet" type="text/css" />
+ 
+  </head>
+  <body id="top">
+   <header>
+    <h1>Layout with CSS</h1>
+   </header>
+   <h4>General instructions</h4>
+<ul>
+   <li>You may add, change or remove classes</li>
+   <li>You may not change anything else about the HTML EXCEPT in ex-14.</li>
+   <li>Don't touch lab-styles.css! Put all your CSS in your-styles.css.</li>
+</ul>
+      <section id="ex-01">
+        <div class="div1">one</div>
+        <div class="div1">two</div>
+        <div class="div1">three</div>
+      </section>
+
+      <ul>
+        <li>Make the divs run left to right</li>
+        <li>Surround each div with a thin blue line</li>
+        <li>Separate each div by 20 pixels</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex1.png" alt="Result of ex-01"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-02">
+        <span class="span1">one</span>
+        <span class="span1">two</span>
+        <span class="span1">three</span>
+      </section>
+
+      <ul>
+        <li>Make the spans stack top to bottom</li>
+        <li>Give each span a color and border as pictured</li>
+        <li>Each span should be half as wide as the container</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex2.png" alt="Result of ex-02"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-03">
+        <div class="div2">one</div>
+        <div class="div2">two</div>
+        <div class="div2">three</div>
+      </section>
+
+      <ul>
+        <li>Make the divs run left to right</li>
+        <li>Surround each div with a dotted line</li>
+        <li>Make each div be a square</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex3.png" alt="Result of ex-03"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-04">
+        <div class="hidden">You should not see me</div>
+        <div>You should see only me</div>
+      </section>
+      
+      <ul>
+        <li>Don't display the first div</li>
+        <li>But do display the second</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex4.png" alt="Result of ex-04"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-05">
+        <a class="button1" href="#">click me</a>
+        <a class="button2" href="#">click me</a>
+      </section>
+
+      <ul>
+        <li>Make this link be one quarter as wide as its container</li>
+        <li>Add a background color and turn it into a rectangular button with space above and below the centered text, as pictured</li>
+      
+        <li>Center the button in the middle of the container</li>
+        <li>Make it so the color of the button darkens when you hover or tab onto it (the second button in the Result image below represents the hovered/tabbed over state; you will only create one button)</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex5.png" alt="Result of ex-05"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-06">
+        <div class="too-big">some content</div>
+      </section>
+<div id="bottom">
+      <ul >
+        <li>Make this div be half as wide as the container and centered with margins, as pictured</li>
+        <li>Add at least 30px of padding and at least 20px of border until the div overflows the parent container</li>
+      
+      </ul>
+      </div>
+
+      <figure>
+        <img src="images/ex6.png" alt="Result of ex-06"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-07">
+        <div class="box-model">some content</div>
+      </section>
+
+      <ul>
+        <li>Add the same declarations for width, padding, border, and margin to this block as you did in exercise 06, above</li>
+        <li>Add a single declaration that will keep the box from overflowing its container</li>
+        <li>Don't change anything else</li>
+        <li>Your entire box, including border and padding, should now be half the container's width and should fit fully within the container, as pictured below</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex7.png" alt="Result of ex-07"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-08">
+        <img class="lemon" src="images/lemon.png" alt="a lemon with eyes"/>
+      <p class="float1">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+          vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+          no sea takimata sanctus est. Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+          erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+   
+      </section>
+
+      <ul>
+        <li>Make the image float to the left of the paragraph</li>
+        <li>The text of the paragraph should wrap around the image</li>
+        <li>Add margins to align the image with the top of the text and to provide some white space between the image and text</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex8.png" alt="Result of ex-08"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-09">
+        <img class="lemon2" src="images/lemon.png" alt="a lemon with eyes"/>
+      <p class="float2">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+          vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+          no sea takimata sanctus est. Lorem ipsum dolor sit amet, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+          erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+      </section>
+
+      <ul>
+        <li>Do the same thing as before, but float the image to the right</li>
+        <li>Make sure to adjust your margins</li>
+        <li>Now justify your text to make the edges of the text block even on all sides</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex9.png" alt="Result of ex-09"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-10">
+        <img class="lemon3" src="images/lemon.png" alt="that lemon again"/>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore.
+        </p>
+        <p class="clear">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+          vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+          no sea takimata sanctus est.
+        </p>
+      </section>
+
+      <ul>
+        <li>Float the image to the left and add margins to all four sides</li>
+        <li>Now clear the float so that the second paragraph starts below the image and doesn't wrap around it</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex10.png" alt="Result of ex-10"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-11">
+        <p class="col-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at porttitor quam. Aenean sem urna. Aliquam mi eros. Duis non orci erat. 
+        </p>
+        <p class="col-2">
+          Duis non orci erat. Integer cursus placerat consequat. Praesent malesuada commodo porta. Phasellus finibus, metus ut efficitur aliquam, arcu turpis euismod lectus, ut auctor sapien nisi id nisi. Sed tristique felis vel ex lacinia iaculis. Aliquam mi eros.
+        </p>
+      </section>
+
+      <ul>
+        <li>Use floats to create a two-column layout for these paragraphs</li>
+        <li>Separate the columns as pictured</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex11.png" alt="Result of ex-11"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-12">
+
+          <p class="col-1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at porttitor quam. Aenean sem urna. Aliquam mi eros. Duis non orci erat. 
+        </p>
+        <p class="col-2">
+          Duis non orci erat. Integer cursus placerat consequat. Praesent malesuada commodo porta. Phasellus finibus, metus ut efficitur aliquam, arcu turpis euismod lectus, ut auctor sapien nisi id nisi. Sed tristique felis vel ex lacinia iaculis. Aliquam mi eros.
+        </p>
+    
+        <p class="footer-floats">
+          Praesent et libero sit amet sem rutrum sollicitudin a vulputate est. Suspendisse potenti. In ac consectetur eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+        </p>
+      </section>
+
+      <ul>
+        <li>Duplicate the two-column layout from the previous exercise</li>
+        <li>Prevent the third paragraph from creeping up into your floated columns</li>
+      </ul>
+
+      <figure>
+        <img src="images/ex12.png" alt="Result of ex-12"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-13">
+        <div class="thirt one">one</div>
+        <div class="thirt two">two</div>
+     
+      </section>
+
+      <ul>
+        <li>Turn these divs into colored squares using width, height, and background</li>
+        <li>Approximate their positions as pictured using position: relative</li>
+  
+      </ul>
+
+      <figure>
+        <img src="images/ex13.png" alt="Result of ex-13"/>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+    
+      <section id="ex-14">
+         <div class="absolute">I'm all the way up here!</div>
+      </section>
+
+      <ul>
+        <li>Use absolute positioning to place the purple div at the very top of the page, somewhere to the left of the title "Layout with CSS"</li>
+        <li>You may alter the HTML for this one</li>
+        <li>Make sure that when you scroll the page, the purple div scrolls with the header</li>
+      </ul>
+
+      <figure>
+        <div>
+          <img src="images/ex14.png" alt="Result of ex-14"/>
+        </div>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      <section id="ex-15">
+         <div class="fixed">I'm over here!</div>
+      </section>
+
+      <ul>
+        <li>Use fixed positioning to place the orange div at the very top of the page, to the right of the title "Layout with CSS"</li>
+        <li>Do not alter the HTML for this one</li>
+        <li>Make sure that when you scroll the page, the orange div does not scroll</li>
+      </ul>
+
+      <figure>
+        <div>
+          <img src="images/ex15.png" alt="Result of ex-15"/>
+        </div>
+        <figcaption>image of results</figcaption>
+      </figure>
+
+      

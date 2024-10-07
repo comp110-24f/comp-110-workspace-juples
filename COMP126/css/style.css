@@ -1,0 +1,82 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* default styling for ul */
+.menubar {
+  padding: 10px;
+}
+
+/* default styling for all li elements */
+.menuitem {
+  display: inline-block;
+  background: purple;
+  width: 15%;
+  min-width: 120px;
+  padding: 0.5rem;
+  cursor: pointer;
+  position: relative;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 1px;
+}
+
+/* default styling for all a elements */
+.menulink {
+  color: white;
+  text-decoration: none;
+}
+
+/* changing the background color of top-level li elements green upon hover */
+.menuitem:hover {
+  background: black;
+}
+
+/* changing the text color of a top-level menubar a element when the li element containing it is hovered over */
+.menuitem:hover .menulink {
+  color: white;
+}
+
+/* default appearance of dropdown menu, which is hidden/invisible until hover (you can also do this with display: none; instead of visibility: hidden; , with slightly different effects) */
+.dropdown {
+  display: none;
+  padding: 0;
+  position: absolute;
+  top: 2.2rem;
+  left: 0;
+  z-index: 10;
+}
+
+/* hovering over a top-level menubar's li element switches its dropdown menu's visibility value from hidden to visible (you can also do this with display: block; instead of visibility: visible;) */
+.menuitem:hover .dropdown {
+  display: block;
+}
+
+/* default styling of dropdown menu li elements */
+.dropdown-item {
+   background-color: black;
+  display: block;
+  margin-top: 1px;
+}
+
+/* changing the background color of dropdown menu li items upon hover */
+.dropdown-item:hover {
+  background: darkslategray;
+}
+
+/* changing the text color of an a element in the dropdown menu when the li containing it is hovered over */
+.dropdown-item:hover .menulink {
+  color: white;
+}
+
+/* examples of "utility classes": small classes designed to do one or two things that can be applied across elements */
+.txt-green {
+  color: green;
+}
+
+.align-left {
+  text-align: left;
+}
