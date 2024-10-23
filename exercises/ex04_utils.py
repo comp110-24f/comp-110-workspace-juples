@@ -1,53 +1,47 @@
-'''this is comp 110 EX04 - list Utility Functions'''
+"""this is comp 110 EX04 - list Utility Functions"""
+
 __author__ = "730511752"
 
 
-
-def all(newlist: list[int], check: int) -> bool: 
-    x = 0 
+def all(newlist: list[int], check: int) -> bool:
+    x = 0
     index = 1
     length = len(newlist)
-    while index < length:    
-        newlist[x] == check
-        x +=1
-        index +=1 
-    
+    while index < length:
         if newlist[x] != check:
             return False
-    return True
+        newlist[x] == check
+        x += 1
+        index += 1
+
+    if length == 0:
+        return False
+    else:
+        return True
 
 
 def max(input: list[int]) -> int:
     if len(input) == 0:
         raise ValueError("max() arg is an empty List")
-    index = len(input) - 1 
-    great =  sorted(input)
+    index = len(input) - 1
+    great = sorted(input)
     check = great[index]
-    return(check)
-    
+    return check
 
-def is_equal(list1: list[int],list2: list[int]) -> bool:
-    x = 0 
+
+def is_equal(list1: list[int], list2: list[int]) -> bool:
+    x = 0
     index = 1
     length = len(list1)
-    while index < length:    
-        list1[x] == list2[x]
-        x +=1
-        index +=1 
-
+    if len(list1) != len(list2):
+        return False
+    while index < length:
         if list1[x] != list2[x]:
             return False
+        x += 1
+        index += 1
     return True
 
 
-
-def extend(list1: list[int],list2: list[int]) -> None:
-    list1 += list2 
-
-
-
-
-
-
-
-
+def extend(list1: list[int], list2: list[int]) -> None:
+    list1 += list2

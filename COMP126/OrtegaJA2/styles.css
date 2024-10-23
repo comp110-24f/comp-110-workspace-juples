@@ -1,0 +1,34 @@
+fo
+
+
+.menubar {
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  /* default styling for all li elements */
+  .menuitem {
+    display: inline-block;
+    background: #385170;
+    width: 10%;
+    min-width: 78px;
+    padding: 1rem;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  
+  /* default styling for all a elements */
+  .menulink {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* changing the background color of top-level li elements green upon hover */
+  .menuitem:hover {
+    background: black;
+  }

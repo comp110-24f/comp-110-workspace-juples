@@ -1,0 +1,27 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(300px, 1fr)
+    );
+    grid-gap: 1rem;
+  }
+article button{
+    background: teal;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+
+}
+
+.sale-item{
+    border: solid;
+    border-color: blue;
+    border-radius: 20px;
+
+
+}
